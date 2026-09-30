@@ -1,0 +1,19 @@
+# Maven / Java
+target/
+*.class
+*.log
+hs_err_pid*
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+# Secrets et environnement
+.env
+.env.*
+!.env.example
+# macOS
+.DS_Store
+# Claude Code (réglages locaux)
+.claude/settings.local.json
